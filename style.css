@@ -26,7 +26,7 @@ body {
 
 main {
   /* border: 1px solid red; */
-  margin: 13vh 30px;
+  margin: 8vh 30px;
   /* width: 100%; */
   display: flex;
   flex-direction: column;
@@ -77,92 +77,92 @@ main header p {
     font-size: 0.85em;
   }
 }
-main article {
+main .content {
   /* border-top: 1px solid green; */
   margin: 8vh 0;
   display: grid;
 }
 @media screen and (min-width: 1020px) {
-  main article {
+  main .content {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2vw;
   }
 }
-main article section {
+main .content section {
   /* border: 1px solid coral; */
   border-radius: 5px;
   line-height: 1.4em;
 }
 @media screen and (min-width: 400px) {
-  main article section {
+  main .content section {
     width: 18em;
   }
 }
 @media screen and (min-width: 1200px) {
-  main article section {
+  main .content section {
     width: 20em;
   }
 }
-main article section div h2 {
+main .content section div h2 {
   margin-bottom: 0.8em;
   font-size: 1em;
   font-weight: 700;
   color: var(--VDB);
 }
-main article section div p {
+main .content section div p {
   font-size: 0.75em;
   font-weight: 400;
   color: var(--GB);
 }
 @media screen and (min-width: 1200px) {
-  main article section div h2 {
+  main .content section div h2 {
     font-size: 1.3em;
   }
-  main article section div p {
+  main .content section div p {
     font-size: 0.85em;
   }
 }
-main article section .img-box {
+main .content section .img-box {
   /* border: 1px solid royalblue; */
   display: flex;
   justify-content: flex-end;
 }
-main article section .img-box img {
-  margin-top: 4vh;
+main .content section .img-box img {
+  margin-top: 8vh;
   width: 45px;
 }
 @media screen and (min-width: 1200px) {
-  main article section .img-box img {
-    width: 55px;
+  main .content section .img-box img {
+    width: 50px;
   }
 }
-main article section .c1,
-main article section .c2,
-main article section .c3,
-main article section .c4 {
+main .content section .c1,
+main .content section .c2,
+main .content section .c3,
+main .content section .c4 {
   border-radius: 5px;
   box-shadow: 0 10px 10px 2px #e3f5f5ad;
   padding: 1.5em;
   margin-bottom: 1.5em;
 }
-main article section .c1 {
+main .content section .c1 {
   /* border: 1px solid darkmagenta; */
   border-top: 5px solid var(--Cyan);
 }
-main article section .c2 {
+main .content section .c2 {
   /* border: 1px solid darkmagenta; */
   border-top: 5px solid var(--Red);
 }
-main article section .c3 {
+main .content section .c3 {
   /* border: 1px solid darkmagenta; */
   border-top: 5px solid var(--Orange);
 }
-main article section .c4 {
+main .content section .c4 {
   /* border: 1px solid darkmagenta; */
   border-top: 5px solid var(--Blue);
 }
-main article section:nth-child(1),
-main article section:nth-child(3) {
+main .content section:nth-child(1),
+main .content section:nth-child(3) {
   display: flex;
   align-items: center;
 }
